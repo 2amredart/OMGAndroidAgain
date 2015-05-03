@@ -27,19 +27,18 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener,
         AdapterView.OnItemClickListener {
-
+    //added comment to test git
     TextView mainTextView;
     Button mainButton;
     EditText mainEditText;
     ListView mainListView;
 //    ArrayAdapter mArrayAdapter;
     JSONAdapter mJSONAdapter;
-    ArrayList mNameList = new ArrayList();
+//    ArrayList mNameList = new ArrayList();
     ShareActionProvider mShareActionProvider;
     private static final String PREFS = "prefs";
     private static final String PREF_NAME = "name";
